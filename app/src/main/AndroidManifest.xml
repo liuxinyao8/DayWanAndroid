@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.daywanandroid">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/anzhuo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar">
+        <activity android:name=".activity.About"></activity>
+        <activity android:name=".activity.SamrtActivityWv" />
+        <activity android:name=".activity.SmartFragmnet" />
+        <activity android:name=".activity.DhWv" />
+        <activity android:name=".activity.WxWv" />
+        <activity android:name=".activity.TXWengzhangWv" />
+        <activity android:name=".activity.Tixiwengzhang" />
+        <activity android:name=".activity.link" />
+        <activity android:name=".activity.SYWZWV" />
+        <activity android:name=".activity.SYBannerWV" />
+        <activity android:name=".activity.Smater" />
+        <activity android:name=".activity.RegistActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

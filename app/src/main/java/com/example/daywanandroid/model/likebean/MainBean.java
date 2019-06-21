@@ -1,0 +1,364 @@
+package com.example.daywanandroid.model.likebean;
+
+import java.util.List;
+
+public class MainBean {
+
+    /**
+     * data : {"curPage":2,"datas":[{"apkLink":"","author":"L_Xian","chapterId":89,"chapterName":"app缓存相关","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8598,"link":"https://juejin.im/post/5cf8d8faf265da1ba9156dc8","niceDate":"2019-06-11","origin":"","prefix":"","projectLink":"","publishTime":1560259676000,"superChapterId":90,"superChapterName":"数据存储","tags":[],"title":"像操作Room一样操作SharedPreferences和File文件","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"xiasem","chapterId":100,"chapterName":"RecyclerView","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8597,"link":"https://juejin.im/post/5cfa198ff265da1b8c197c2f","niceDate":"2019-06-11","origin":"","prefix":"","projectLink":"","publishTime":1560259588000,"superChapterId":183,"superChapterName":"5.+高新技术","tags":[],"title":"无限循环RecyclerView的完美实现方案","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"Android_开发者","chapterId":464,"chapterName":"Google_Play_要求","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8596,"link":"https://juejin.im/post/5cff0c49f265da1b5f264b78","niceDate":"2019-06-11","origin":"","prefix":"","projectLink":"","publishTime":1560259494000,"superChapterId":453,"superChapterName":"版本适配","tags":[],"title":"为应用提供 64 位原生支持 | Android 中文教学视频","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"看书的小蜗牛","chapterId":445,"chapterName":"Service","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8584,"link":"https://www.jianshu.com/p/f2db0f58d47f","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559816914000,"superChapterId":173,"superChapterName":"framework","tags":[],"title":"Android O 后台startService限制简析","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"code小生","chapterId":414,"chapterName":"code小生","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8585,"link":"https://mp.weixin.qq.com/s/hZzk2fy0m4edexXiFt3FIA","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/414/1"}],"title":"Android-打包AAR步骤以及注意事项","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"鸿洋","chapterId":408,"chapterName":"鸿洋","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8588,"link":"https://mp.weixin.qq.com/s/Xnee0DLiewkq8Ari76mVGw","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/408/1"}],"title":"是什么让我们阅读RxJava源码如此艰难？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"郭霖","chapterId":409,"chapterName":"郭霖","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8590,"link":"https://mp.weixin.qq.com/s/gzg0a_afY0459w07WvuXkQ","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/409/1"}],"title":"使用黑科技启动未注册的Activity","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"互联网侦察","chapterId":421,"chapterName":"互联网侦察","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8592,"link":"https://mp.weixin.qq.com/s/oXepYTJEotQjglqh0OyaYQ","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/421/1"}],"title":"淘宝服务端高并发分布式架构(十四次)演进之路","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"鸿洋","chapterId":408,"chapterName":"鸿洋","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8587,"link":"https://mp.weixin.qq.com/s/hqlCIDVZyPaaVqVqPntSuw","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/408/1"}],"title":"大厂的文章详情页 WebView与 RecyclerView如何连贯滑动的？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"郭霖","chapterId":409,"chapterName":"郭霖","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8589,"link":"https://mp.weixin.qq.com/s/neagxQCwXIyTYEABOiq9zQ","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/409/1"}],"title":"原来这些设计模式的理念都是相同的","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"互联网侦察","chapterId":421,"chapterName":"互联网侦察","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8591,"link":"https://mp.weixin.qq.com/s/kymLrIMtxpB6kph5M8ItXg","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/421/1"}],"title":"面试干货 | Java 能否自定义一个类叫 java.lang.System？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"玉刚说","chapterId":410,"chapterName":"玉刚说","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8594,"link":"https://mp.weixin.qq.com/s/209BTLs17hf9uue28OCubw","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/410/1"}],"title":"Android Shortcuts，让你在系统桌面上为所欲为","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"xitu","chapterId":463,"chapterName":"掘金翻译计划","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8581,"link":"https://github.com/xitu/gold-miner/blob/master/android.md","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"","publishTime":1559653999000,"superChapterId":463,"superChapterName":"翻译","tags":[],"title":"掘金翻译计划Android翻译汇总","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"liguangze","chapterId":402,"chapterName":"跨平台应用","collect":false,"courseId":13,"desc":"自学小程序，页面比较粗糙，根据泓洋大神WanAndroid的开放接口以及一些开源的框架借鉴，完成的一个小程序版本。","envelopePic":"https://wanandroid.com/blogimgs/1db48fd6-ae6b-4ca6-9dd3-0e56734964c1.png","fresh":false,"id":8580,"link":"http://www.wanandroid.com/blog/show/2608","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"https://github.com/liguangze/miniWanAndroid","publishTime":1559653736000,"superChapterId":294,"superChapterName":"开源项目主Tab","tags":[{"name":"项目","url":"/project/list/1?cid=402"}],"title":"玩Android版本的小程序","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"CarGuo","chapterId":402,"chapterName":"跨平台应用","collect":false,"courseId":13,"desc":"Flutter完整开发实战详解系列，本系列将完整讲述：如何快速从 0 开发一个完整的 Flutter APP，配套高完成度 Flutter 开源项目 GSYGithubAppFlutter ，同时会提供一些Flutter的开发细节技巧，之后深入源码和实战为你全面解析 Flutter 。\r\n可在线预览，提供pdf下载等。","envelopePic":"https://wanandroid.com/resources/image/pc/default_project_img.jpg","fresh":false,"id":8578,"link":"http://www.wanandroid.com/blog/show/2606","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"https://github.com/CarGuo/GSYFlutterBook","publishTime":1559653589000,"superChapterId":294,"superChapterName":"开源项目主Tab","tags":[{"name":"项目","url":"/project/list/1?cid=402"}],"title":"Flutter完整开发实战详解系列GitBook","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"鸿洋","chapterId":408,"chapterName":"鸿洋","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8586,"link":"https://mp.weixin.qq.com/s/DUct28v2vX0R8zDoJ6IhZA","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"","publishTime":1559577600000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/408/1"}],"title":"我在一个群分享Android 好像被我分享得没人说话了... 3期","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"玉刚说","chapterId":410,"chapterName":"玉刚说","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8593,"link":"https://mp.weixin.qq.com/s/esClAFOF1eH1cAxNm1W9hA","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"","publishTime":1559577600000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/410/1"}],"title":"Android Q 适配，看这篇就妥了","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"不怕天黑","chapterId":77,"chapterName":"响应式编程","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8576,"link":"https://juejin.im/post/5cf3e1235188251c064815f1","niceDate":"2019-06-03","origin":"","prefix":"","projectLink":"","publishTime":1559575418000,"superChapterId":191,"superChapterName":"热门专题","tags":[],"title":"RxLife终极进化，一行代码解决RxJava内存泄漏(任意类)","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":" 振之","chapterId":26,"chapterName":"基础UI控件","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8575,"link":"https://juejin.im/post/597d88f75188257fc2177c36","niceDate":"2019-06-03","origin":"","prefix":"","projectLink":"","publishTime":1559534523000,"superChapterId":26,"superChapterName":"常用控件","tags":[],"title":"如何实现 &ldquo;中间这几个字要加粗，但是不要太粗，比较纤细的那种粗&rdquo; ？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"lycknight","chapterId":73,"chapterName":"面试相关","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8574,"link":"https://www.jianshu.com/p/8a6951b0d0ee","niceDate":"2019-06-03","origin":"","prefix":"","projectLink":"","publishTime":1559523148000,"superChapterId":191,"superChapterName":"热门专题","tags":[],"title":"三年开发经验，抖音离职后，拿到Airbnb、快手、小红书、猿辅导等15家公司的offer","type":0,"userId":-1,"visible":1,"zan":0}],"offset":20,"over":false,"pageCount":333,"size":20,"total":6660}
+     * errorCode : 0
+     * errorMsg :
+     */
+
+    private DataBean data;
+    private int errorCode;
+    private String errorMsg;
+
+    public DataBean getData() {
+        return data;
+    }
+
+    public void setData(DataBean data) {
+        this.data = data;
+    }
+
+    public int getErrorCode() {
+        return errorCode;
+    }
+
+    public void setErrorCode(int errorCode) {
+        this.errorCode = errorCode;
+    }
+
+    public String getErrorMsg() {
+        return errorMsg;
+    }
+
+    public void setErrorMsg(String errorMsg) {
+        this.errorMsg = errorMsg;
+    }
+
+    public static class DataBean {
+        /**
+         * curPage : 2
+         * datas : [{"apkLink":"","author":"L_Xian","chapterId":89,"chapterName":"app缓存相关","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8598,"link":"https://juejin.im/post/5cf8d8faf265da1ba9156dc8","niceDate":"2019-06-11","origin":"","prefix":"","projectLink":"","publishTime":1560259676000,"superChapterId":90,"superChapterName":"数据存储","tags":[],"title":"像操作Room一样操作SharedPreferences和File文件","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"xiasem","chapterId":100,"chapterName":"RecyclerView","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8597,"link":"https://juejin.im/post/5cfa198ff265da1b8c197c2f","niceDate":"2019-06-11","origin":"","prefix":"","projectLink":"","publishTime":1560259588000,"superChapterId":183,"superChapterName":"5.+高新技术","tags":[],"title":"无限循环RecyclerView的完美实现方案","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"Android_开发者","chapterId":464,"chapterName":"Google_Play_要求","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8596,"link":"https://juejin.im/post/5cff0c49f265da1b5f264b78","niceDate":"2019-06-11","origin":"","prefix":"","projectLink":"","publishTime":1560259494000,"superChapterId":453,"superChapterName":"版本适配","tags":[],"title":"为应用提供 64 位原生支持 | Android 中文教学视频","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"看书的小蜗牛","chapterId":445,"chapterName":"Service","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8584,"link":"https://www.jianshu.com/p/f2db0f58d47f","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559816914000,"superChapterId":173,"superChapterName":"framework","tags":[],"title":"Android O 后台startService限制简析","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"code小生","chapterId":414,"chapterName":"code小生","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8585,"link":"https://mp.weixin.qq.com/s/hZzk2fy0m4edexXiFt3FIA","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/414/1"}],"title":"Android-打包AAR步骤以及注意事项","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"鸿洋","chapterId":408,"chapterName":"鸿洋","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8588,"link":"https://mp.weixin.qq.com/s/Xnee0DLiewkq8Ari76mVGw","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/408/1"}],"title":"是什么让我们阅读RxJava源码如此艰难？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"郭霖","chapterId":409,"chapterName":"郭霖","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8590,"link":"https://mp.weixin.qq.com/s/gzg0a_afY0459w07WvuXkQ","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/409/1"}],"title":"使用黑科技启动未注册的Activity","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"互联网侦察","chapterId":421,"chapterName":"互联网侦察","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8592,"link":"https://mp.weixin.qq.com/s/oXepYTJEotQjglqh0OyaYQ","niceDate":"2019-06-06","origin":"","prefix":"","projectLink":"","publishTime":1559750400000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/421/1"}],"title":"淘宝服务端高并发分布式架构(十四次)演进之路","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"鸿洋","chapterId":408,"chapterName":"鸿洋","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8587,"link":"https://mp.weixin.qq.com/s/hqlCIDVZyPaaVqVqPntSuw","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/408/1"}],"title":"大厂的文章详情页 WebView与 RecyclerView如何连贯滑动的？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"郭霖","chapterId":409,"chapterName":"郭霖","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8589,"link":"https://mp.weixin.qq.com/s/neagxQCwXIyTYEABOiq9zQ","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/409/1"}],"title":"原来这些设计模式的理念都是相同的","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"互联网侦察","chapterId":421,"chapterName":"互联网侦察","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8591,"link":"https://mp.weixin.qq.com/s/kymLrIMtxpB6kph5M8ItXg","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/421/1"}],"title":"面试干货 | Java 能否自定义一个类叫 java.lang.System？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"玉刚说","chapterId":410,"chapterName":"玉刚说","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8594,"link":"https://mp.weixin.qq.com/s/209BTLs17hf9uue28OCubw","niceDate":"2019-06-05","origin":"","prefix":"","projectLink":"","publishTime":1559664000000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/410/1"}],"title":"Android Shortcuts，让你在系统桌面上为所欲为","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"xitu","chapterId":463,"chapterName":"掘金翻译计划","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8581,"link":"https://github.com/xitu/gold-miner/blob/master/android.md","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"","publishTime":1559653999000,"superChapterId":463,"superChapterName":"翻译","tags":[],"title":"掘金翻译计划Android翻译汇总","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"liguangze","chapterId":402,"chapterName":"跨平台应用","collect":false,"courseId":13,"desc":"自学小程序，页面比较粗糙，根据泓洋大神WanAndroid的开放接口以及一些开源的框架借鉴，完成的一个小程序版本。","envelopePic":"https://wanandroid.com/blogimgs/1db48fd6-ae6b-4ca6-9dd3-0e56734964c1.png","fresh":false,"id":8580,"link":"http://www.wanandroid.com/blog/show/2608","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"https://github.com/liguangze/miniWanAndroid","publishTime":1559653736000,"superChapterId":294,"superChapterName":"开源项目主Tab","tags":[{"name":"项目","url":"/project/list/1?cid=402"}],"title":"玩Android版本的小程序","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"CarGuo","chapterId":402,"chapterName":"跨平台应用","collect":false,"courseId":13,"desc":"Flutter完整开发实战详解系列，本系列将完整讲述：如何快速从 0 开发一个完整的 Flutter APP，配套高完成度 Flutter 开源项目 GSYGithubAppFlutter ，同时会提供一些Flutter的开发细节技巧，之后深入源码和实战为你全面解析 Flutter 。\r\n可在线预览，提供pdf下载等。","envelopePic":"https://wanandroid.com/resources/image/pc/default_project_img.jpg","fresh":false,"id":8578,"link":"http://www.wanandroid.com/blog/show/2606","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"https://github.com/CarGuo/GSYFlutterBook","publishTime":1559653589000,"superChapterId":294,"superChapterName":"开源项目主Tab","tags":[{"name":"项目","url":"/project/list/1?cid=402"}],"title":"Flutter完整开发实战详解系列GitBook","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"鸿洋","chapterId":408,"chapterName":"鸿洋","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8586,"link":"https://mp.weixin.qq.com/s/DUct28v2vX0R8zDoJ6IhZA","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"","publishTime":1559577600000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/408/1"}],"title":"我在一个群分享Android 好像被我分享得没人说话了... 3期","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"玉刚说","chapterId":410,"chapterName":"玉刚说","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8593,"link":"https://mp.weixin.qq.com/s/esClAFOF1eH1cAxNm1W9hA","niceDate":"2019-06-04","origin":"","prefix":"","projectLink":"","publishTime":1559577600000,"superChapterId":408,"superChapterName":"公众号","tags":[{"name":"公众号","url":"/wxarticle/list/410/1"}],"title":"Android Q 适配，看这篇就妥了","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"不怕天黑","chapterId":77,"chapterName":"响应式编程","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8576,"link":"https://juejin.im/post/5cf3e1235188251c064815f1","niceDate":"2019-06-03","origin":"","prefix":"","projectLink":"","publishTime":1559575418000,"superChapterId":191,"superChapterName":"热门专题","tags":[],"title":"RxLife终极进化，一行代码解决RxJava内存泄漏(任意类)","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":" 振之","chapterId":26,"chapterName":"基础UI控件","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8575,"link":"https://juejin.im/post/597d88f75188257fc2177c36","niceDate":"2019-06-03","origin":"","prefix":"","projectLink":"","publishTime":1559534523000,"superChapterId":26,"superChapterName":"常用控件","tags":[],"title":"如何实现 &ldquo;中间这几个字要加粗，但是不要太粗，比较纤细的那种粗&rdquo; ？","type":0,"userId":-1,"visible":1,"zan":0},{"apkLink":"","author":"lycknight","chapterId":73,"chapterName":"面试相关","collect":false,"courseId":13,"desc":"","envelopePic":"","fresh":false,"id":8574,"link":"https://www.jianshu.com/p/8a6951b0d0ee","niceDate":"2019-06-03","origin":"","prefix":"","projectLink":"","publishTime":1559523148000,"superChapterId":191,"superChapterName":"热门专题","tags":[],"title":"三年开发经验，抖音离职后，拿到Airbnb、快手、小红书、猿辅导等15家公司的offer","type":0,"userId":-1,"visible":1,"zan":0}]
+         * offset : 20
+         * over : false
+         * pageCount : 333
+         * size : 20
+         * total : 6660
+         */
+
+        private int curPage;
+        private int offset;
+        private boolean over;
+        private int pageCount;
+        private int size;
+        private int total;
+        private List<DatasBean> datas;
+
+        public int getCurPage() {
+            return curPage;
+        }
+
+        public void setCurPage(int curPage) {
+            this.curPage = curPage;
+        }
+
+        public int getOffset() {
+            return offset;
+        }
+
+        public void setOffset(int offset) {
+            this.offset = offset;
+        }
+
+        public boolean isOver() {
+            return over;
+        }
+
+        public void setOver(boolean over) {
+            this.over = over;
+        }
+
+        public int getPageCount() {
+            return pageCount;
+        }
+
+        public void setPageCount(int pageCount) {
+            this.pageCount = pageCount;
+        }
+
+        public int getSize() {
+            return size;
+        }
+
+        public void setSize(int size) {
+            this.size = size;
+        }
+
+        public int getTotal() {
+            return total;
+        }
+
+        public void setTotal(int total) {
+            this.total = total;
+        }
+
+        public List<DatasBean> getDatas() {
+            return datas;
+        }
+
+        public void setDatas(List<DatasBean> datas) {
+            this.datas = datas;
+        }
+
+        public static class DatasBean {
+            /**
+             * apkLink :
+             * author : L_Xian
+             * chapterId : 89
+             * chapterName : app缓存相关
+             * collect : false
+             * courseId : 13
+             * desc :
+             * envelopePic :
+             * fresh : false
+             * id : 8598
+             * link : https://juejin.im/post/5cf8d8faf265da1ba9156dc8
+             * niceDate : 2019-06-11
+             * origin :
+             * prefix :
+             * projectLink :
+             * publishTime : 1560259676000
+             * superChapterId : 90
+             * superChapterName : 数据存储
+             * tags : []
+             * title : 像操作Room一样操作SharedPreferences和File文件
+             * type : 0
+             * userId : -1
+             * visible : 1
+             * zan : 0
+             */
+
+            private String apkLink;
+            private String author;
+            private int chapterId;
+            private String chapterName;
+            private boolean collect;
+            private int courseId;
+            private String desc;
+            private String envelopePic;
+            private boolean fresh;
+            private int id;
+            private String link;
+            private String niceDate;
+            private String origin;
+            private String prefix;
+            private String projectLink;
+            private long publishTime;
+            private int superChapterId;
+            private String superChapterName;
+            private String title;
+            private int type;
+            private int userId;
+            private int visible;
+            private int zan;
+            private List<?> tags;
+
+            public int position;
+
+            public String getApkLink() {
+                return apkLink;
+            }
+
+            public void setApkLink(String apkLink) {
+                this.apkLink = apkLink;
+            }
+
+            public String getAuthor() {
+                return author;
+            }
+
+            public void setAuthor(String author) {
+                this.author = author;
+            }
+
+            public int getChapterId() {
+                return chapterId;
+            }
+
+            public void setChapterId(int chapterId) {
+                this.chapterId = chapterId;
+            }
+
+            public String getChapterName() {
+                return chapterName;
+            }
+
+            public void setChapterName(String chapterName) {
+                this.chapterName = chapterName;
+            }
+
+            public boolean isCollect() {
+                return collect;
+            }
+
+            public void setCollect(boolean collect) {
+                this.collect = collect;
+            }
+
+            public int getCourseId() {
+                return courseId;
+            }
+
+            public void setCourseId(int courseId) {
+                this.courseId = courseId;
+            }
+
+            public String getDesc() {
+                return desc;
+            }
+
+            public void setDesc(String desc) {
+                this.desc = desc;
+            }
+
+            public String getEnvelopePic() {
+                return envelopePic;
+            }
+
+            public void setEnvelopePic(String envelopePic) {
+                this.envelopePic = envelopePic;
+            }
+
+            public boolean isFresh() {
+                return fresh;
+            }
+
+            public void setFresh(boolean fresh) {
+                this.fresh = fresh;
+            }
+
+            public int getId() {
+                return id;
+            }
+
+            public void setId(int id) {
+                this.id = id;
+            }
+
+            public String getLink() {
+                return link;
+            }
+
+            public void setLink(String link) {
+                this.link = link;
+            }
+
+            public String getNiceDate() {
+                return niceDate;
+            }
+
+            public void setNiceDate(String niceDate) {
+                this.niceDate = niceDate;
+            }
+
+            public String getOrigin() {
+                return origin;
+            }
+
+            public void setOrigin(String origin) {
+                this.origin = origin;
+            }
+
+            public String getPrefix() {
+                return prefix;
+            }
+
+            public void setPrefix(String prefix) {
+                this.prefix = prefix;
+            }
+
+            public String getProjectLink() {
+                return projectLink;
+            }
+
+            public void setProjectLink(String projectLink) {
+                this.projectLink = projectLink;
+            }
+
+            public long getPublishTime() {
+                return publishTime;
+            }
+
+            public void setPublishTime(long publishTime) {
+                this.publishTime = publishTime;
+            }
+
+            public int getSuperChapterId() {
+                return superChapterId;
+            }
+
+            public void setSuperChapterId(int superChapterId) {
+                this.superChapterId = superChapterId;
+            }
+
+            public String getSuperChapterName() {
+                return superChapterName;
+            }
+
+            public void setSuperChapterName(String superChapterName) {
+                this.superChapterName = superChapterName;
+            }
+
+            public String getTitle() {
+                return title;
+            }
+
+            public void setTitle(String title) {
+                this.title = title;
+            }
+
+            public int getType() {
+                return type;
+            }
+
+            public void setType(int type) {
+                this.type = type;
+            }
+
+            public int getUserId() {
+                return userId;
+            }
+
+            public void setUserId(int userId) {
+                this.userId = userId;
+            }
+
+            public int getVisible() {
+                return visible;
+            }
+
+            public void setVisible(int visible) {
+                this.visible = visible;
+            }
+
+            public int getZan() {
+                return zan;
+            }
+
+            public void setZan(int zan) {
+                this.zan = zan;
+            }
+
+            public List<?> getTags() {
+                return tags;
+            }
+
+            public void setTags(List<?> tags) {
+                this.tags = tags;
+            }
+        }
+    }
+}

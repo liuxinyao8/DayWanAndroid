@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/navigation1" android:icon="@mipmap/x" android:title="收藏"/>
+<item android:title="TODO" android:id="@+id/navigation2"
+    android:icon="@mipmap/menu_myorder"
+    />
+    <item android:title="夜间模式" android:id="@+id/navigation3"
+        android:icon="@mipmap/xx"/>
+
+    <item android:title="设置" android:id="@+id/navigation4" android:icon="@mipmap/sz"/>
+
+    <item android:icon="@mipmap/ic_drawer_about" android:id="@+id/navigation5" android:title="关于我们"/>
+
+    <item android:icon="@mipmap/report_checked" android:id="@+id/navigation6" android:title="退出登陆"/>
+</menu>

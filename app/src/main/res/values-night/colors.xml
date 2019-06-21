@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <!--状态栏的颜色-->
+    <color name="colorPrimaryDark">#999999</color>
+    <!--控件的选中颜色，即checked或selected状态的颜色。-->
+    <color name="colorAccent">#212121</color>
+    <color name="common_touch_bg">#3C3C3C</color>
+    <!--通用背景色-->
+    <color name="common_bg1">#665A5A</color>
+    <color name="common_gray_bg">#333333</color>
+    <color name="common_touch_bg1">#3C3C3C</color>
+    <!--通用一级标题的颜色-->
+    <color name="common_h1">#999999</color>
+    <!--通用二级标题的颜色-->
+    <color name="common_h2">#666666</color>
+    <!--通用三级标题的颜色-->
+    <color name="common_h3">#999999</color>
+    <!--通用分割线细-->
+    <color name="common_divider_narrow">#232323</color>
+    <color name="background">#252a2e</color>
+    <color name="unablebtn">#A39595</color>
+    <color name="dark_bg">#505050</color>
+    <color name="light">#ADA6A6</color>
+    <color name="white">#524C4D</color>
+    <color name="black">#000000</color>
+    <color name="green">#A4BBB3</color>
+    <color name="zise">#F8D2DF</color>
+    <color name="dark_bg1">#CA9696</color>
+    <color name="yejian_back">#252a2e</color>
+</resources>

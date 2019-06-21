@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6EB4</color>
+    <color name="colorAccent">#FF6EB4</color>
+    <color name="colorPrimaryDark">#126cb9</color>
+    <color name="common_touch_bg">#F0E5E5</color>
+    <!--通用背景色-->
+    <color name="common_bg1">#ffffff</color>
+    <!--通用触摸背景色-->
+    <color name="common_touch_bg1">#ffffff</color>
+    <!--通用背景色-->
+    <color name="common_gray_bg">#EEEEEE</color>
+    <!--通用一级标题的颜色-->
+    <color name="common_h1">#212121</color>
+    <!--通用二级标题的颜色-->
+    <color name="common_h2">#ffffff</color>
+    <!--通用三级标题的颜色-->
+    <color name="common_h3">#EFEEF1</color>
+    <!--通用分割线细-->
+    <color name="common_divider_narrow">#F58686</color>
+    <color name="background">#91C5F7</color>
+    <color name="unablebtn">#FC8F8F</color>
+    <color name="dark_bg">#FC6B6B</color>
+    <color name="light">#994646</color>
+    <color name="white">#2196F3</color>
+    <color name="black">#000000</color>
+    <color name="green">#05D992</color>
+    <color name="zise">#E5004F</color>
+    <color name="dark_bg1">#414141</color>
+    <color name="yejian_back">#ffffff</color>
+</resources>
